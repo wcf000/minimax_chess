@@ -25,7 +25,7 @@ import random
 # DO NOT MODIFY
 
 
-def get_move(board: chess.Board, best_move=False) -> str:
+def get_move(board: chess.Board, best_move=True) -> str:
     """
         Gets a move for the current white piece.
 
